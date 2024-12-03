@@ -13,6 +13,18 @@
 body {
     font-family: var(--paragraph-font);
 }
+video {
+    display: flex;
+    width: 200px;
+    height: 100px; 
+    justify-content: space-between;
+/*    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-area: right;
+    width: 200;
+    height: auto;  */
+/*    max-width: 240px; */
+}
 
 header,
 main,
@@ -20,7 +32,6 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 a {
     text-decoration: none;
 }
