@@ -17,7 +17,7 @@ video {
     display: flex;
     width: 200px;
     height: 100px; 
-    justify-content: space-between;
+    justify-content: space-around;
 /*    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-area: right;
