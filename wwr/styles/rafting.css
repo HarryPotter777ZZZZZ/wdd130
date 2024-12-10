@@ -117,8 +117,15 @@ header nav a:hover {
 .history-p2 {
     grid-area: right;
 }
-
-
+.history map{
+    grid-area: right;
+    padding: 20px;
+}
+.history user_form{
+    grid-area: left;
+    padding: 10px;
+/*    grid-column: left; */
+}
 
 .adventure {
     display: grid;

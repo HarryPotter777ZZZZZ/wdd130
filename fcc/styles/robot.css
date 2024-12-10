@@ -185,3 +185,15 @@ footer {
     justify-content: flex-end;
     align-items: center;
 }
+
+/*
+element.style {
+}
+.topline__indicators__move.animate {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    animation-play-state: running;
+    animation-name: move;
+}
+*/
