@@ -27,26 +27,70 @@
             <a class="current" href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main>
-        <div class="hero">
-            <img src="images/rafting16_1024.jpg" alt="hero image dec">
-            <h1>Contact Us</h1>
-
-            <!-- <h2>Send us a message</h2> -->
-            <article>
+    <main class=" grid contacts">
+        <div class="cntbkg con-hero"></div>
+        <div class="contact">
+            <h1 class="center">Contact Us</h1>
+            <form action="#">
+                <fieldset class="contact-fields">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="from">
+                    <label for="email">e-Mail:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="reason">Reason for contacting us ?</label>
+                    <select name="reason" id="reason">
+                        <option value="" selected="" disabled="">-- Please select One -- </option>
+                        <option value="general">General Inquiry</option>
+                        <option value="reservation">Reservation Question </option>
+                        <option value="suggestion">Website Suggestion</option>   
+                    </select>    
+                    <label for="comment">Please enter your comment:</label>
+                    <textarea name="comment" id="comment" cols="35" rows="10"></textarea>
+                    <div class="signup">
+                        <input type="checkbox" name="subscribe" id="newsletter">
+                        <label for="newsletter">Please suscribe me to the monthly newsletter</label>
+                    </div>               
+                </fieldset>
+                <button typr="submit" class="submit">Send Message</button>
+            </form>
+        </div>
+             <article>
                 <img src="images/team-happy-corporate-employees.webp" alt="3 happy employees">
 <!--                <caption> "Our empoyees are glad to serbe you better" </caption> -->
-                <h2>Send us a message</h2>
-                <h3>Water Rafting Company</h3>
+<!--                <h2>Send us a message</h2>
+                <h3>MANGO Rafting Company</h3>
                 <p>Phone: +9999-999-9999</p>
-                <p>Email: HarryPotter777ZZZZZ@gmail.com</p>
+                <p>Email: HarryPotter777ZZZZZ@gmail.com</p> -->
             </article>
+<!--        </div>   -->
+<!--        <div class="contact">
+            <h1 class="center">Contact Us</h1>"
+            <form action="#">
+                <fieldset class="contact-fields">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="from">
+                    <label for="email">e-Mail</label>
+                    <input type="email" name="email" id="email">
+                    <label for="reason">Reason for contacting us?</label>
+                    <select name="reason" id="reason">
+                        <option value="" selected="" disabled="">-- Please select One -- </option>
+                        <option value="general">General Inquiry</option>
+                        <option value="reservation">Reservation Question </option>
+                        <option value="suggestion">Website Suggestion/option;</option>
+                    </select>
+                    <label for="comment">Please enter your comment:</label>
+                    <textarea name="comment" id="comment" cols="35" rows="10"></textarea>
+                    <div class="signup">
+                        <input type="checkbox" name="subscribe" id="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                </fieldset>
+            </form>
         </div>
-
         <section class="history">
-<!--            <h1>Map</h1>  -->
+            <h1>Map</h1>  -->
             <hr>
-            <h2>Enter you contacts please</h2>
+            <h2>Enter your contacts please</h2>
 <!--            <h2>Contact Form</h2> -->
             
 <!--            <p class="history-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
