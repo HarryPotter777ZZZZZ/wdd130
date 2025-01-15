@@ -12,8 +12,8 @@
     float: right;
     margin: 0, 0, 1rem, 1rem;
     border: 2px solid #fff;
-    /* padding: 5px; */
-    /* box-shadow: 0 0 10px, #eee; */
+    padding: 3px;
+    box-shadow: 0 0 10px, #eee;
     width: 125px;
     height: auto;
     background-color: #eee;
