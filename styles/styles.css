@@ -44,9 +44,9 @@ main {
 
 aside {
     /* Moved aside to the right */
-    position: absolute;
-    top: 1.5rem;
-    right: 0;
+    position: relative;
+    /* top: 1.5rem; */
+    /* right: 0; */
     /* height: auto; */
     /* Initial code */
     width: 20rem;
@@ -73,7 +73,7 @@ p { padding: 0;}
 footer {
     margin-top: 15px; /* margin-top: auto; replaced */
     border-top: 1px solid #000;
-    text-align: left; /* center; */
+    text-align: center; /* center; */
 }
 
 
