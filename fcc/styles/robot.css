@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #505033;
+    --primary-color: #e23d64; /* #505033; */
     --secondary-color: #262469;
     --accent1-color: #cfcfb4;
     --accent2-color: #b4cde4;
@@ -7,6 +7,7 @@
     --heading-font: 'Merriweather', serif;
     --paragraph-font: 'Roboto', sans-serif;
 }
+
 * {
     box-sizing: border-box;
 }
