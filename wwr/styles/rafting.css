@@ -43,8 +43,8 @@ body {
     margin-bottom: 5px;
 }
 
-select {
-    font-style: ;
+/*select {
+     font-style: ;
     font-variant-ligatures: ;
     font-variant-caps: ;
     font-variant-numeric: ;
@@ -84,7 +84,7 @@ select {
     border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
     border-radius: 0px;
-}
+} */
 
 header,
 main,
