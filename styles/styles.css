@@ -58,8 +58,10 @@ p {
 main {
     max-width: 840px;
     /* Added code to fix main element */
-    padding: 20px;
-    flex: 1; /* Allow main to take up remaining space */
+    padding: 1 rem ; /* 20px; */
+    /* flex: 1; Allow main to take up remaining space */
+    grid-column: 2;
+
 }
 
 aside {
@@ -95,7 +97,7 @@ p { padding: 0;}
 footer {
     margin-top: 15px; /* margin-top: auto; replaced */
     border-top: 1px solid #000;
-    text-align: center; /* center; */
+    text-align: center; 
 }
 
 
