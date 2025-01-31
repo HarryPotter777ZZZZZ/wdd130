@@ -13,7 +13,7 @@ header, .grid, footer {
 }
 
 nav {
-    background-color: darkblue;
+    background-color: steelblue;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -35,7 +35,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: steelblue;
     font-size: 1.6rem;
     text-align: center;
     border-bottom: 1px solid darkblue;
