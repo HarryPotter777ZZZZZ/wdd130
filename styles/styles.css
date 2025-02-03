@@ -8,7 +8,7 @@ body, html {
 }
 
 header, .grid, footer {
-    max-width: 840px;
+    max-width: 840px; /* 100% */
     margin: 0 auto;
 }
 
