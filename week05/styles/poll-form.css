@@ -85,7 +85,8 @@ input[type="checkbox"] {
 /* Style the button as you see fit along with the button:hover pseudo-class.
 Example */
 button {
-  margin: 1rem;
+  width: 300px; 
+  margin: 1rem auto;
   background-color: navy;
   color: #fff;
   border: none;
