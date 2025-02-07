@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
-<!-- <div class="data">${h.includes('href="styles/rafting.css"') && csslinks.length >= 2 && getElement(h, '<link rel="preconnect" href="https://fonts.googleapis.com">') === 1 && getElement(h, '<link rel="preconnect" href="https://fonts.gstatic.com"') ? "✅" : "❌"}</div>
+    <!-- <div class="data">${h.includes('href="styles/rafting.css"') && csslinks.length >= 2 && getElement(h, '<link rel="preconnect" href="https://fonts.googleapis.com">') === 1 && getElement(h, '<link rel="preconnect" href="https://fonts.gstatic.com"') ? "✅" : "❌"}</div>
 href="styles/rafting.css"
 <link rel="preconnect" href="https://fonts.googleapis.com"
 <link rel="preconnect" href="https://fonts.gstatic.com" -->
@@ -23,7 +23,7 @@ href="styles/rafting.css"
     <header>
         <img src="images/logo.jpg" alt="logo" class="logo-box">
         <nav>
-           
+
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="trips.html">Trips</a>
@@ -32,59 +32,62 @@ href="styles/rafting.css"
     </header>
     <main>
         <h1>Contact Us</h1>
-        
-        <h2>Send Us a Message</h2>
-
-        <p>White Water Rafting</p>
-        <p>Phone: 999-99-9999</p>
-        <p>Email: <a href ="mailto:">info@wwr.com</a>></p>
-        <p>PERU Santa Maria de Nieva</p>       
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59745.05594828513!2d-77.87854334444873!3d-4.605903091804893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSanta%20Mar%C3%ADa%20de%20Nieva!5e0!3m2!1sen!2sus!4v1738950728247!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-        <form>
-            <fieldset>
-                <legend>Contact  Information</legend>
-            <!-- form elements will go here -->
-                <div class="form-item column2">
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname">
+        <div class="sidebyside">
+            <div class="contactinfo">
+                <p>White Water Rafting</p>
+                <p>Phone: 999-99-9999</p>
+                <p>Email: <a href="mailto:">info@wwr.com</a>></p>
+                <p>PERU Santa Maria de Nieva</p>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59745.05594828513!2d-77.87854334444873!3d-4.605903091804893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSanta%20Mar%C3%ADa%20de%20Nieva!5e0!3m2!1sen!2sus!4v1738950728247!5m2!1sen!2sus"
+                        width="600" height="450" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="form-item column2">
-                    <label for="useremail">Email:</label> 
-                    <input type="email" id="useremail" name="useremail">
-                </div>    
-            </fieldset>
-            <fieldset>   
-                <legend>Questions</legend>
-            <!-- form elements will go here -->
-                <div class="form-item column1">
-                    <label for="message">What is the purpose of your message?</label><br>
-                    
-                    <input type="radio" id="gi" name="purpose" value="General Inquiry">
-                    <label for="gi">General Inquiry</label><br>
-                    <input type="radio" id="rq" name="purpose" value="Reservation Question">
-                    <label for="rq">Reservation Question</label><br>
-                    <input type="radio" id="ws" name="purpose" value="Website Suggestion">
-                    <label for="ws">Website Suggestion</label><br>
-               
-                    <!-- <select id="purpose" name="purpose">
+            </div>
+            <form>
+                <h2>Send Us a Message</h2>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <!-- form elements will go here -->
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <!-- form elements will go here -->
+                    <div class="form-item column1">
+                        <label>What is the purpose of your message?</label><br>
+
+                        <input type="radio" id="gi" name="purpose" value="General Inquiry">
+                        <label for="gi">General Inquiry</label><br>
+                        <input type="radio" id="rq" name="purpose" value="Reservation Question">
+                        <label for="rq">Reservation Question</label><br>
+                        <input type="radio" id="ws" name="purpose" value="Website Suggestion">
+                        <label for="ws">Website Suggestion</label><br>
+
+                        <!-- <select id="purpose" name="purpose">
                         <option value="general">General Inquiry</option>
                         <option value="reservation">Reservation Question</option>
                         <option value="website">Website Suggestion</option>
                     </select> -->
-                </div>
-                <div class="form-item column1">
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" id="subscribe" name="subscribe">
-                </div> 
-                <label for="feedback">Your Message:</label>
-                <textarea id="feedback" name="feedback" rows="4" placeholder="Dehli India, Amsterdam Netherlands, Tibuktu Mali"></textarea>
-                <button type="submit">Submit</button>
-            </fieldset>
-        </form>
-
+                    </div>
+                    <div class="form-item column1">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                    </div>
+                    <label for="feedback">Your Message:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Text"></textarea>
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </div>
         <!-- <div class="hero">
             <img src="images/rafting16_1024.webp" alt="hero image dec">
             <h1>MANGO Rafting Company</h1>
@@ -117,11 +120,8 @@ href="styles/rafting.css"
                 deserunt mollit anim id est laborum.</p>
         </section> -->
 
-        <div class="ourteam">
-            <h2>Our Team</h2>
-        </div>
+        <h2>Our Team</h2>
         <section class="team">
-            <!-- <h2>Our Team</h2> -->
             <figure>
                 <img src="images/happy_employee1.jfif" alt="happy_employee1">
                 <figcaption>Anna</figcaption>
@@ -134,7 +134,7 @@ href="styles/rafting.css"
                 <img src="images/happy_photo.jfif" alt="appy_photo">
                 <figcaption>Kate</figcaption>
             </figure>
-        <!-- <figure>
+            <!-- <figure>
                 <img src="images/rafting33_600.webp" alt="product image dec">
                 <figcaption></figcaption>
             </figure>
@@ -142,7 +142,7 @@ href="styles/rafting.css"
                 <img src="images/rafting42_600.webp" alt="product image dec">
                 <figcaption></figcaption>
             </figure>  -->
-        </section> 
+        </section>
 
     </main>
 
