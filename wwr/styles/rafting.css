@@ -381,6 +381,15 @@ footer {
     justify-content: space-between;
 }
 
+footer a:visited,
+footer a:link {
+    color: white;
+}
+
+footer a:hover {
+    color: yellow;
+}
+
 .sociallinks {
     background-color: unset;
 }
