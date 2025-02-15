@@ -24,6 +24,11 @@ body {
     grid-gap: 1rem;
 }
 
+.sidebyside img:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
 .contact {
     display: flex;
     flex-direction: column;
@@ -109,6 +114,7 @@ header nav a:hover {
 .hero img {
     width: 100%;
     height: auto;
+    border-radius: 1.5rem;
 }
 
 .hero h1 {
@@ -132,6 +138,7 @@ header nav a:hover {
     float: right;
     width: 200px;
     margin: 0 0 0 1em;
+    border-radius: 1.5rem;
 }
 
 .history {
@@ -153,6 +160,7 @@ header nav a:hover {
     grid-area: image;
     width: 100%;
     height: auto;
+    border-radius: 1.5rem;
 }
 
 .history-p1 {
@@ -181,6 +189,66 @@ header nav a:hover {
     grid-gap: 10px;
 }
 
+/* -----Home----- */
+.cards {
+    margin: 100px 0;
+    /* grid-row: 3;
+    display: flex;
+    flex-direction: row; */
+    /*  column; */
+    /* align-items: center; */
+    display: grid;
+    align-self: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    /* border-radius: 1.5rem; */
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 1.5rem;
+}
+
+.cards img:hover {
+    /* width: 110%; */
+    transform: scale(1.1);
+}
+
+.home-subtitle {
+    position: absolute;
+    /* margin: 20px 0; */
+    color: var(--white);
+    background-color: #13181475;
+    justify-self: center;
+    top: 18em;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff73;
+}
+
+.row4 {
+    grid-row: 4;
+    grid-row-start: 4;
+    grid-row-end: auto;
+}
+
+.button-box {
+    background-color: var(--button-color);
+    font-size: 1.5em;
+    color: var(--white);
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    justify-self: center;
+    align-self: center;
+    min-width: 15rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/*-----Home---- */
+
 .adventure h2 {
     grid-column: 1/-1;
     justify-self: center;
@@ -194,6 +262,12 @@ header nav a:hover {
 .adventure figure img {
     width: 100%;
     height: auto;
+    border-radius: 0.8rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.adventure figure img:hover {
+    transform: scale(1.1);
 }
 
 figcaption {
@@ -328,7 +402,8 @@ h2 {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
-    border-radius: 1.5rem 1.5rem 0 0;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    /* 1.5rem 1.5rem 0 0; */
 }
 
 .call-to-action {
