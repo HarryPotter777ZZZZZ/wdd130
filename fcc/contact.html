@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нищи Контакты | Роботы</title>
+    <meta name="description" content="Contact us describing how to contact us and how to order the trips.">
+    <meta name="author" content="Harry Ushenin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <!-- <div class="data">${h.includes('href="styles/rafting.css"') && csslinks.length >= 2 && getElement(h, '<link rel="preconnect" href="https://fonts.googleapis.com">') === 1 && getElement(h, '<link rel="preconnect" href="https://fonts.gstatic.com"') ? "✅" : "❌"}</div>
+href="styles/rafting.css"
+<link rel="preconnect" href="https://fonts.googleapis.com"
+<link rel="preconnect" href="https://fonts.gstatic.com" -->
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="logo" class="logo-box">
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <div class="sidebyside">
+            <div class="contactinfo">
+                <p>White Water Rafting</p>
+                <p>Phone: 999-99-9999</p>
+                <p>Email: <a href="mailto:">info@wwr.com</a>></p>
+                <p>Address: PERU Santa Maria de Nieva</p>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59745.05594828513!2d-77.87854334444873!3d-4.605903091804893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSanta%20Mar%C3%ADa%20de%20Nieva!5e0!3m2!1sen!2sus!4v1738950728247!5m2!1sen!2sus"
+                        width="600" height="450" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <form>
+                <h2>Send Us a Message</h2>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <!-- form elements will go here -->
+                    <div class="form-item column2">
+                        <label for="fullname">User Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">User Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <!-- form elements will go here -->
+                    <div class="form-item column1">
+                        <label>What is the purpose of your message?</label><br>
+
+                        <input type="radio" id="gi" name="purpose" value="General Inquiry">
+                        <label for="gi">General Inquiry</label><br>
+                        <input type="radio" id="rq" name="purpose" value="Reservation Question">
+                        <label for="rq">Reservation Question</label><br>
+                        <input type="radio" id="ws" name="purpose" value="Website Suggestion">
+                        <label for="ws">Website Suggestion</label><br>
+
+                        <!-- <select id="purpose" name="purpose">
+                        <option value="general">General Inquiry</option>
+                        <option value="reservation">Reservation Question</option>
+                        <option value="website">Website Suggestion</option>
+                     </select> -->
+                    </div>
+                    <!-- <div class="form-item column1">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                    </div> -->
+                    <label for="feedback">Your Message:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Type here"></textarea>
+                    <div class="form-item column1">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                    </div>
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <h2>Our Team</h2>
+        <section class="team">
+            <figure>
+                <img src="images/happy_employee1.jfif" alt="happy_employee1">
+                <figcaption>Anna</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee_photo_72.avif" alt="boss">
+                <figcaption>BOSS</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happy_photo.jfif" alt="appy_photo">
+                <figcaption>Kate</figcaption>
+            </figure>
+            <!-- <figure>
+                <img src="images/rafting33_600.webp" alt="product image dec">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="images/rafting42_600.webp" alt="product image dec">
+                <figcaption></figcaption>
+            </figure>  -->
+        </section>
+
+    </main>
+
+    <footer>
+        <p>©️2025 🌴 Harry🌴 Moscow, RU | <a href="images/Wireframe_contact.JPG" target="_blank">Wireframe </a></p>
+        <nav class="sociallinks">
+            <!-- <a href="images/Wireframe_contact.jpg" target="_blank"> -->
+            <!-- <img src="images/Wireframe_contact.JPG" alt="Wireframe icon"> -->
+            <a href="https://whatsapp.com" target="_blank">
+                <img src="images/whatsapp_icon.png" alt="whatsapp icon">
+            </a>
+            <a href="https://telegram.org" target="_blank">
+                <img src="images/telegram_icon.png" alt="telegram icon">
+            </a>
+            <a href="https://vk.com" target="_blank">
+                <img src="images/vk_icon.png" alt="vk icon">
+            </a>
+            <!-- <a href="https://ok.ru" target="_blank">
+                <img src="images/ok_icon.png" alt="ok icon">
+            </a> -->
+            <a href="https://x.com" target="_blank">
+                <img src="images/x_icon.png" alt="x_media icon">
+            </a>
+            <a href="https://youtube.com" target="_blank">
+                <img src="images/youtube_icon_main.png" alt="youtub icon">
+            </a>
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook_icon.png" alt="facebook icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram_icon-instagram_buttoninstegram-128.webp" alt="Insta icon">
+            </a>
+            <!-- <a href="https://twitter.com" target="_blank">
+                <img src="images/1_Twitter3_colored_svg-128.webp" alt="twitter icon"> -->
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
