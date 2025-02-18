@@ -22,7 +22,7 @@ href="styles/rafting.css"
 
 <body>
     <header>
-        <img src="images/logo.jpg" alt="logo" class="logo-box">
+        <img src="images/point00.jpg" alt="logo" class="logo-box">
         <nav>
 
             <a href="index.html">Главная</a>
@@ -32,47 +32,52 @@ href="styles/rafting.css"
         </nav>
     </header>
     <main>
-        <h1>Напишите нам</h1>
+        <h1>Наши контакты</h1>
         <div class="sidebyside">
             <div class="contactinfo">
                 <p>Дирекция по техническому развитию и Роботизации</p>
                 <p>Телефон: 999-99-9999</p>
-                <p>Емейл: <a href="mailto:">robot@pptrf.com</a>></p>
+                <p>Емейл: <a href="mailto:">robot@pptrf.ru</a>></p>
                 <p>Адрес: Россия Москва, ул.Сергея Макеева 13</p>
                 <div class="map">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59745.05594828513!2d-77.87854334444873!3d-4.605903091804893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSanta%20Mar%C3%ADa%20de%20Nieva!5e0!3m2!1sen!2sus!4v1738950728247!5m2!1sen!2sus"
-                        width="600" height="450" allowfullscreen="" loading="lazy"
+                        src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7915.757771039032!2d37.54199324474779!3d55.763090017902094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bd51b33c4cb%3A0xdc98bce93288a16f!2z0YPQuy4g0KHQtdGA0LPQtdGPINCc0LDQutC10LXQstCwLCAxMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEyMzAyMg!5e0!3m2!1sru!2sus!4v1739871473827!5m2!1sru!2sus"
+                        width="600" height="450" ;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59745.05594828513!2d-77.87854334444873!3d-4.605903091804893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSanta%20Mar%C3%ADa%20de%20Nieva!5e0!3m2!1sen!2sus!4v1738950728247!5m2!1sen!2sus" -->
+                    <!-- width="600" height="450" allowfullscreen="" loading="lazy" -->
+                    <!-- referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                 </div>
             </div>
 
             <form>
-                <h2>Отправьте нам сообщение</h2>
+                <h2>Напишите нам</h2>
                 <fieldset>
-                    <legend>Контактная информация</legend>
+                    <legend>Ваши контакты</legend>
                     <!-- form elements will go here -->
-                    <div class="form-item column2">
-                        <label for="fullname">Имя:</label>
-                        <input type="text" id="fullname" name="fullname">
-                    </div>
-                    <div class="form-item column2">
-                        <label for="useremail">Емейл:</label>
-                        <input type="email" id="useremail" name="useremail">
+                    <div class="form-container">
+                        <div class="form-item column2">
+                            <label for="fullname">Имя:</label> <!-- <pre></pre> -->
+                            <input type="text" id="fullname" name="fullname">
+                        </div>
+                        <div class="form-item column2">
+                            <label for="useremail">Емейл:</label>
+                            <input type="email" id="useremail" name="useremail">
+                        </div>
                     </div>
                 </fieldset>
                 <fieldset>
                     <legend>Вопросы</legend>
                     <!-- form elements will go here -->
                     <div class="form-item column1">
-                        <label>Какова цель вашего сообщения?</label><br>
+                        <label>Цель вашего сообщения?</label><br>
 
                         <input type="radio" id="gi" name="purpose" value="General Inquiry">
-                        <label for="gi">Общий запрос</label><br>
+                        <label for="gi">Общий Вопрос</label><br>
                         <input type="radio" id="rq" name="purpose" value="Reservation Question">
-                        <label for="rq">Вопрос о бронировании</label><br>
+                        <label for="rq">Вопрос об Оценке готовности к роботизации</label><br>
                         <input type="radio" id="ws" name="purpose" value="Website Suggestion">
-                        <label for="ws">Предложение по веб-сайта</label><br>
+                        <label for="ws">Предложение по веб-сайту</label><br>
 
                         <!-- <select id="purpose" name="purpose">
                         <option value="general">General Inquiry</option>
@@ -85,7 +90,8 @@ href="styles/rafting.css"
                         <input type="checkbox" id="subscribe" name="subscribe">
                     </div> -->
                     <label for="feedback">Ваше Сообщение:</label>
-                    <textarea id="feedback" name="feedback" rows="4" placeholder="Type here"></textarea>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Печатайте здесь"></textarea>
+                    <!--Type here-->
                     <div class="form-item column1">
                         <label for="subscribe">Подписаться на ежемесячную рассылку</label>
                         <input type="checkbox" id="subscribe" name="subscribe">
@@ -94,8 +100,9 @@ href="styles/rafting.css"
                 </fieldset>
             </form>
         </div>
-
-        <h2>Наша Команда</h2>
+        <div class="ourteam">
+            <h2>Наша Команда</h2>
+        </div>
         <section class="team">
             <figure>
                 <img src="images/lina01.jpg" alt="happy_employee1">
