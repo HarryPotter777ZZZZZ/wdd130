@@ -195,14 +195,13 @@ figcaption {
 
 .form-item label {
     margin-right: 20px;
-    /* Добавляем отступ после метки */
-}
+} */
 
 .form-item input {
     flex-grow: 1;
 }
 
-*/
+
 /* end of alignment */
 
 footer {
@@ -418,7 +417,7 @@ button:hover {
 
 .ourteam {
     display: flex;
-    : center;
+    justify-self: center;
 
 }
 
