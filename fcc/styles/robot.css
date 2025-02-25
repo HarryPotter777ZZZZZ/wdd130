@@ -80,7 +80,8 @@ header nav {
 
 header nav a {
     padding: 1em;
-    color: var(--accent1-color);
+    color: #fff;
+    /* var(--accent1-color); */
     /*--secondary-color*/
     font-size: 1.2rem;
     font-weight: 700;
