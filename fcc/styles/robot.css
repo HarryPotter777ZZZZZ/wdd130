@@ -87,8 +87,10 @@ header nav a {
 }
 
 header nav a:hover {
-    background-color: var(--secondary-color);
-    color: #fff;
+    color: var(--secondary-color);
+    background-color: #fff;
+    /* background-color: var(--secondary-color);
+    color: #fff; */
 }
 
 .hero {
